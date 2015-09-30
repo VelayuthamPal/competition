@@ -1,0 +1,169 @@
+@CHARSET "ISO-8859-1";
+body {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Background.jpg) bottom no-repeat;
+	background-color:58169a;
+}
+
+
+span.start {
+	color:white;
+	font-size:2em;
+
+}
+
+.credits {
+	color:white;
+	text-align:right;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+
+.metro-surface{
+	padding: 40px 0px 0px 0px;
+}
+
+
+.metro-tile {
+	background-color: #D8512B;
+	border-color: #DC6241;
+	width: 204px;
+	height: 204px;
+	padding: 5px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 12px;
+	border-width: 3px;
+	border-style: solid;
+	cursor: default;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+
+
+.metro-tile-small {
+	width: 104px;
+	height: 104px;
+}
+
+
+.metro-tile-store {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Store.png);
+	background-color: #2878EC;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-xbox {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/XBox.png);
+	background-position: 8px 8px;
+        background-color:#6CB71E;
+        border-color:#6CB71E;
+}
+
+
+.metro-tile-google {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Google.png);
+	background-color: #009719;
+	border-color: #009719;
+}
+
+
+.metro-tile-angrybirds {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/AngryBirds.jpg);
+        border-image: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/AngryBirds.jpg) 1;
+}
+
+
+.metro-tile-music {
+	background: url('https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Music.png');
+        background-color: #D8512B;
+	border-color: #D8512B;
+}
+
+
+.metro-tile-ie {
+	background: url('https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/IE.png');
+        background-color: #2878EC;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-image {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Image.jpg);
+	border-color: black;
+}
+
+
+.metro-tile-tweet {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Tweet.png);
+	background-color: #2878EC;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-msg {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Messaging.png);
+	background-color: #2878EC;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-player {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Gangnam.jpg);
+	border-color: black;
+}
+
+
+.metro-tile-facebook {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+
+.metro-tile-twitter {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Twitter.png);
+	background-color: #2878EC;
+	background-position: 0 10px;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-aciii {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/AC3.jpg);
+	border-color: black;
+}
+
+
+.metro-tile-gmail {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Gmail.png);
+	background-color: #009719;
+	border-color: #009719;
+}
+
+
+.metro-tile-dropbox {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Dropbox.png);
+	background-color: #2878EC;
+	border-color: #2878EC;
+}
+
+
+.metro-tile-blogger {
+	background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Blogger.png);
+	background-color: #D8512B;
+	border-color: #D8512B;
+}
+
+
+div.metro-tile:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
